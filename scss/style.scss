@@ -1,0 +1,34 @@
+@use "./bloks/header";
+@use "./bloks/hero";
+@use "./bloks/products";
+@use "./bloks/clean";
+@use "./bloks/testimonilas";
+@use "./bloks/popular";
+@use "./bloks/footer";
+
+.container {
+  max-width: 1127px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../fonts/poppins/roboto/Roboto-Regular.ttf);
+}
